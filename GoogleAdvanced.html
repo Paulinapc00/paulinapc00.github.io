@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search</title>
+        <link rel="stylesheet" href="Estilo.css">
+        <nav>
+            <ul style="text-align:right;">
+                <li><img style="padding-right:900px; padding-top:10px;" src=MiniLogo.png></li>
+                <li><a href="index.html">Google Search</a></li>
+                <li><img src=option.png></li>
+                <li><a id="signin" href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com.mx%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Sign In</a></li>
+            </ul>
+        </nav>
+        <p id="ASearch" >Advanced Search</p>
+        <hr style="background-color:rgb(219, 217, 217); opacity: 0.5;">
+        
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <td class="titlel">Find pages with...</td>
+                    <Td></Td>
+                    <Td id="titler">To do this in the search box.</Td>
+                </tr>
+            </thead>
+            <tbody><form action="https://google.com/search">
+                <tr>
+                    <td class="marginl">all these words:</td>
+                    <td><input class="bar-advanced" type="text" name="as_q"></td>
+                    <td class="marginr">Type the important words: <span class="marginr2">tri-colour rat terrier</span></td>    
+                </tr>
+                <tr>
+                    <td class="marginl">this exact word or phrase:</td>
+                    <td><input class="bar-advanced" type="text" name="as_epq"></td>
+                    <td class="marginr">Put exact words in quotes: <span class="marginr2">"rat terrier"</span></td>
+                </tr>
+                <tr>
+                    <td class="marginl">any of these words:</td>
+                    <td><input class="bar-advanced" type="text" name="as_oq"></td>
+                    <td class="marginr">Type OR between all the words you want: <span class="marginr2">miniature OR standard</span></td>    
+                </tr>
+                <tr>
+                    <td class="marginl">none of these words:</td>
+                    <td><input class="bar-advanced" type="text" name="as_eq"></td>
+                    <td class="marginr" style="padding-top:10px;">Put a minus sign just before words that you don't want:  <span class="marginr2" > <p>-rodent, -"Jack Russell"</p></span></td>
+                </tr>
+            </tbody>
+        </table>
+        <input type="submit" value="Advanced Search" id="searchbuttonA" style="font-size:11px;">
+
+    </body>
+ 
+
+</html>

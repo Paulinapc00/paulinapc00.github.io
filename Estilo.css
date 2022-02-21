@@ -1,0 +1,251 @@
+
+#signin{
+    text-align:center;
+    border-radius: 5px;
+    border: 2px solid rgb(16, 116, 211);
+    padding: auto;
+    width:70px;
+    height:10px;
+    background-color:rgb(16,116,211);
+    color:white;
+    text-decoration-line: none;
+}
+#signin:hover, #signin:active {
+    background-color:rgb(31, 125, 212);
+    text-decoration-line: none;
+    }
+
+#options{
+    margin-top:50px;
+}
+
+ul{
+    
+    font-family:Arial;
+    font-size:14px;
+    padding:0;
+    list-style-type:0;
+}
+
+li{
+    display:inline-block;
+    margin-right:15px;
+}
+
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+a:link, a:visited {
+    background-color: none;
+    color: rgb(56, 55, 55);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration-line: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+color:black;
+text-decoration-line: underline;
+}
+
+
+
+.bar{
+    padding: 5px;
+    width:500px;
+    height:30px;
+    text-align:left;
+    padding-left:50px;
+    font-size:15px;
+    border-radius: 45px;
+    border: 2px solid rgb(221, 222, 223);
+    outline: none;
+    margin:auto;
+    display:flex;
+    margin-top: 20px;
+
+}
+
+
+#search{
+    text-align:center;
+    border-radius: 5px;
+    border: 2px solid rgb(195, 195, 196);
+    padding: 5px;
+    width:150px;
+    height:40px;
+    margin:auto;
+    margin-top: 25px;
+    display: flex;  
+    justify-content: center;  
+    outline:none;
+    border-color: transparent;
+    
+}
+
+#search:hover, #search:active {
+    border-color: rgb(168, 168, 168);
+    border-width:1px;
+}
+
+.footer{
+    color:grey;
+    background-color: rgb(234, 235, 236);
+    position:absolute;
+    bottom:0;
+    height:43px;
+    width:99%;
+}
+
+.bottomr{
+    margin-right: 20px;
+    
+   text-align:right;
+}
+
+.center{
+    margin-top:20px;
+}
+
+.bottoml{
+    margin-left: 20px;
+   
+    text-align:left;
+
+}
+
+#ASearch{
+    color:rgb(219, 1, 1);
+    font-family:Arial;
+    font-size:20px;
+    padding-left:50px;
+    padding-top:13px;
+}
+
+.titlel{
+    font-size:17px;
+    padding-top:30px;
+    padding-left:40px;
+    font-family:Arial;
+    color:rgb(59, 59, 59);
+}
+
+#titler{
+    font-weight:bold;
+    font-size:13px;
+    padding-top:30px;
+    font-family:helvetica;
+    color:rgb(59, 59, 59);
+    position: relative;
+    
+}
+
+.marginl{
+    padding-left:50px;
+    font-family:Arial;
+    margin-top:1px;
+    font-size:13px;
+    color:rgb(59, 59, 59);
+   
+}
+
+.marginr{
+    font-family:helvetica;
+    margin-top:1px;
+    font-size:11px;
+    color:rgb(59, 59, 59);
+    position: relative;
+    padding-left:10px;
+   
+}
+
+.marginr2{
+    font-family: Courier;
+    line-height: .5px;
+}
+
+.bar-advanced{
+    width:560px;
+    height:23px;
+    text-align:left;
+    font-size:15px;
+    outline: none;
+    display:flex;
+    margin-top:10px;
+    margin-left:19px;
+    border: 1px solid rgb(195, 195, 196);
+}
+
+.bar-advanced2{
+    width:250px;
+    height:23px;
+    text-align:left;
+    font-size:15px;
+    outline: none;
+    display:flex;
+    margin-top:10px;
+    margin-left:35px;
+    border: 1px solid rgb(195, 195, 196);
+}
+
+#marginl2{
+    font-family:Arial;
+    margin-top:13px;
+    margin-left:17px;
+    font-size:13px;
+    color:rgb(59, 59, 59);
+}
+
+#bar3{
+    margin-left:20px;
+}
+
+#line2{
+    background-color:rgb(219, 217, 217); 
+    opacity: 0.5; 
+    margin-top:25px; 
+    width:1200px; 
+    margin-left:35px;
+}
+
+.bar-advanced3{
+    width:560px;
+    height:23px;
+    text-align:left;
+    font-size:15px;
+    outline: none;
+    display:flex;
+    margin-top:10px;
+    margin-left:-10px;
+    border: 1px solid rgb(236, 236, 240);
+    background-color: rgb(236, 236, 240);
+    font-family:Arial;
+    font-size:12px;
+    font-weight: bold;
+    color:rgb(22, 22, 22);
+
+}
+
+#searchbuttonA{
+    text-align:center;
+    border-radius: 5px;
+    border: 2px solid rgb(16, 116, 211);
+    padding: auto;
+    width:120px;
+    height:30px;
+    background-color:rgb(16,116,211);
+    color:white;
+    text-decoration-line: none;
+    font-size:10;
+    margin-left:600px;
+    font-weight: bold;
+}
+#searchbuttonA:hover, #searchbuttonA:active {
+    background-color:rgb(31, 125, 212);
+    text-decoration-line: none;
+    }
